@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>Profile ca nhan</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <style>
+            /* html */
+            body {
+                font-family: 'Lato';
+            }
+            div {
+                border: 1px solid #000;
+            }
+            a {
+                text-decoration: none;
+            }
+
+            /* HEADER */
+            /* Menu */
+            ul.menu {
+                display: flex;
+                list-style: none;
+                
+            }
+            ul.menu li {
+                padding: 10px;
+                background:#ccc;
+                margin:10px;
+            }  
+            ul.menu li a, #members div a {
+                color: black;
+                font-size: 18px;
+                padding: 10px;
+            }
+            ul.menu li a:hover, ul.menu li.active a {
+                color: orange;
+                font-size: 20px;
+                background: rgb(110  27 27);
+            }
+            #menu5 {
+                flex-direction: row-reverse;
+                justify-content: flex-end;
+            }
+            #menu3 {
+                justify-content: flex-end;
+            }
+            #menu4 {
+                justify-content: space-between;
+            }
+            #menu2 {
+                justify-content: space-around;
+            }
+            /* banner */
+            #banner {
+                background: #222 url("images/tom.png") bottom right repeat-x;
+                
+            }
+            #banner h1 {
+                text-align: center;
+                margin-top: 40px;
+            }
+
+            /* CONTENT */
+            /* Members */
+            #content {
+                /* opacity: 30%; */
+            }
+            #members {
+                display: flex;
+                /* background: #000; */
+                width: 100%;
+                justify-content: space-around;
+            }
+            #members div {
+                padding: 20px;
+                margin: 10px;
+                /* box-shadow: 0px 0px 10px 0px #bc0404; */
+            }
+           
+            #members div a:hover {
+                color: white;
+                background: cadetblue;
+            }
+            #members div img {
+                border: solid #ccc 10px;
+                border-radius: 50%;
+            }
+            .w200 {
+                width: 200px;
+            }
+            .h200 {
+                height: 200px;
+            }
+            #color_red {
+                color: red!important;
+            }
+            /* FOOTER */
+
+        </style>
+
+    </head>
+    <body>
+        <div id="header">
+           <ul class="menu" id="menu1">
+               <li><a href="index.html">1. Home</a> </li>
+               <li><a href="index2.html">2. About</a> </li>
+               <li><a href="#">3. Serices</a></li>
+               <li><a href="#">4. Products</a></li>
+               <li><a href="#">5. Porfolio</a></li>
+               <li><a href="#">6. Contact</a></li>
+           </ul>
+           <ul class="menu" id="menu2">
+            <li><a href="index.html">1. Home</a> </li>
+            <li><a href="index2.html">2. About</a> </li>
+            <li><a href="#">3. Serices</a></li>
+            <li><a href="#">4. Products</a></li>
+            <li><a href="#">5. Porfolio</a></li>
+            <li><a href="#">6. Contact</a></li>
+        </ul>
+        <ul class="menu" id="menu3">
+            <li><a href="index.html">1. Home</a> </li>
+            <li><a href="index2.html">2. About</a> </li>
+            <li><a href="#">3. Serices</a></li>
+            <li><a href="#">4. Products</a></li>
+            <li><a href="#">5. Porfolio</a></li>
+            <li><a href="#">6. Contact</a></li>
+        </ul>
+        <ul class="menu" id="menu4">
+            <li><a href="index.html">1. Home</a> </li>
+            <li><a href="index2.html">2. About</a> </li>
+            <li><a href="#">3. Serices</a></li>
+            <li><a href="#">4. Products</a></li>
+            <li><a href="#">5. Porfolio</a></li>
+            <li><a href="#">6. Contact</a></li>
+        </ul>
+        <ul class="menu" id="menu5">
+            <li><a href="index.html">1. Home</a> </li>
+            <li><a href="index2.html">2. About</a> </li>
+            <li><a href="#">3. Serices</a></li>
+            <li><a href="#">4. Products</a></li>
+            <li><a href="#">5. Porfolio</a></li>
+            <li><a id="color_red" href="#" style="color:aqua; ">6. Contact</a></li>
+        </ul>
+           <div id="banner">
+               <h1>HELLO!!!</h1>
+           </div>
+        </div>
+        <div id="content">
+            <!-- <h1>Tieu de</h1>
+            <p>Doan van ban mo ta</p>
+            <div id="members">
+                <div>
+                    <h2>Ten member 1</h2>
+                    <p>Mo ta member</p> 
+                    <p><a href="#">Link toi trang TV</a></p>
+                    <img src="images/tom.png" class="w200 h200" alt="">
+
+                </div>
+                <div>
+                    <h2>Ten member 2</h2>
+                    <p>Mo ta member</p> 
+                    <p><a href="#">Link toi trang TV</a></p>
+                    <img src="images/tom.png" class="w200 h200" alt="">
+                </div>
+                <div>
+                    <h2>Ten member 3</h2>
+                    <p>Mo ta member</p> 
+                    <p><a href="#">Link toi trang TV</a></p>
+                    <img src="images/tom.png" class="w200 h200" alt="">
+                </div>
+            </div>
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+                <li>List 4</li>
+            </ul> -->
+        </div>
+        <div id="footer">
+            <!-- <img src="images/Screenshot004.jpg" alt="" class="w200"> -->
+        </div>
+    </body>
+</html>
